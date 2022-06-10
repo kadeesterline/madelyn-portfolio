@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "//kadeesterline.github.io/madelyn-portfolio/static/css/main.f06deef3.css",
+    "main.js": "//kadeesterline.github.io/madelyn-portfolio/static/js/main.e6a6d582.js",
+    "index.html": "//kadeesterline.github.io/madelyn-portfolio/index.html",
+    "main.f06deef3.css.map": "//kadeesterline.github.io/madelyn-portfolio/static/css/main.f06deef3.css.map",
+    "main.e6a6d582.js.map": "//kadeesterline.github.io/madelyn-portfolio/static/js/main.e6a6d582.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f06deef3.css",
+    "static/js/main.e6a6d582.js"
+  ]
+}
