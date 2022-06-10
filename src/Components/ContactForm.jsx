@@ -2,7 +2,7 @@ import React from "react";
 
 function ContactForm() {
   return (
-    <div className="border-2 border-slate-500 rounded-lg p-2 m-2">
+    <div className="border-2 border-slate-400 rounded-lg p-2 m-2">
       <form>
         <label htmlFor="name" hidden>
           Your Name
