@@ -18,6 +18,12 @@ function NavBar() {
           Gallery
         </NavLink>
         <NavLink
+          to="/services"
+          className="px-8 py-1 h-9 font-bold hover:bg-slate-700 hover:text-white"
+        >
+          Services
+        </NavLink>
+        <NavLink
           className="px-8 py-1 h-9 font-bold hover:bg-slate-700 hover:text-white"
           to="/contact"
         >

@@ -1,6 +1,6 @@
 import React from "react";
 import hero from "../Images/IMG_8153.PNG";
-import { FaInstagram } from "react-icons/fa";
+import { FaInstagram, FaHeart } from "react-icons/fa";
 
 function Home() {
   return (
@@ -24,7 +24,12 @@ function Home() {
           aspernatur tenetur.
         </p>
       </div>
-      <img src={hero} alt="horseshoe bend" className="m-3" />
+      {/* <img src={hero} alt="horseshoe bend" className="m-3" /> */}
+      <div className="flex justify-center">
+        <p className="w-100">
+          <a href="https://kadecodes.dev">Made by Kade Esterline</a>
+        </p>
+      </div>
     </div>
   );
 }
