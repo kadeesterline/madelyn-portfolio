@@ -3,15 +3,24 @@ import { Link, NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
-    <div id="navbar" className="bg-slate-300 h-9 w-100">
-      <nav className="flex justify-center">
-        <NavLink className="px-8 py-1" to="/">
+    <div id="navbar" className="bg-slate-300 h-9 m-0 p-0">
+      <nav className="flex justify-center w-full">
+        <NavLink
+          className="px-8 py-1 h-9 font-bold hover:bg-slate-700 hover:text-white"
+          to="/"
+        >
           Home
         </NavLink>
-        <NavLink className="px-8 py-1" to="/gallery">
+        <NavLink
+          className="px-8 py-1 h-9 font-bold hover:bg-slate-700 hover:text-white"
+          to="/gallery"
+        >
           Gallery
         </NavLink>
-        <NavLink className="px-8 py-1" to="/contact">
+        <NavLink
+          className="px-8 py-1 h-9 font-bold hover:bg-slate-700 hover:text-white"
+          to="/contact"
+        >
           Contact
         </NavLink>
       </nav>
