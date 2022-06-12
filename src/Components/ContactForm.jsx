@@ -2,7 +2,7 @@ import React from "react";
 
 function ContactForm() {
   return (
-    <div className="border-2 border-slate-400 rounded-lg p-2 m-2">
+    <div className="border-2 border-slate-400 bg-slate-200 rounded-lg p-2 m-2">
       <form>
         <label htmlFor="name" hidden>
           Your Name
@@ -59,7 +59,7 @@ function ContactForm() {
         <div className="flex justify-center">
           <button
             type="submit"
-            className="bg-slate-300 border-2 border-slate-500 p-2 rounded-md hover:bg-slate-700 hover:text-white"
+            className="bg-slate-400 border-2 font-bold border-slate-500 p-2 rounded-md hover:bg-slate-700 hover:text-white"
           >
             Submit
           </button>

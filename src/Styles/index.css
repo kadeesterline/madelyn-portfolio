@@ -4,4 +4,10 @@
 
 body {
   font-family: "Cormorant Garamond", serif;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
