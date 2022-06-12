@@ -59,7 +59,7 @@ function ContactForm() {
         <div className="flex justify-center">
           <button
             type="submit"
-            className="bg-slate-300 border-2 border-slate-500 p-2 rounded-md"
+            className="bg-slate-300 border-2 border-slate-500 p-2 rounded-md hover:bg-slate-700 hover:text-white"
           >
             Submit
           </button>

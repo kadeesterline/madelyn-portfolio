@@ -20,7 +20,7 @@ function Home() {
       </div>
       <div className="flex justify-center">
         <div className="flex justify-center w-96 border-t-2 border-slate-400">
-          <p className="w-100 p-2 m-2">
+          <p className="p-2 m-2">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
             inventore voluptate, repudiandae alias impedit rem quas atque optio
             asperiores quaerat nam, aspernatur ex magni ullam debitis provident?
