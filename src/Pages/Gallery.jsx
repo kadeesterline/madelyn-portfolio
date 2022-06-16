@@ -1,7 +1,11 @@
-import React from "react";
+import { React, useState, useEffect } from "react";
 import ImageTile from "../Components/ImageTile";
 
 function Gallery() {
+  let [image, setImages] = useState([]);
+
+  function getImages() {}
+
   return (
     <div className="grid justify-center">
       <div className="flex justify-center">

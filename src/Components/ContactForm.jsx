@@ -1,9 +1,13 @@
 import React from "react";
 
 function ContactForm() {
+  function onSubmit(e) {
+    e.preventDefault();
+    console.log("form submitted");
+  }
   return (
     <div className="border-2 border-slate-400 bg-slate-200 rounded-lg p-2 m-2">
-      <form>
+      <form onSubmit={onSubmit}>
         <label htmlFor="name" hidden>
           Your Name
         </label>
