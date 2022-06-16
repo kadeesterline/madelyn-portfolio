@@ -22,6 +22,10 @@ function Services() {
               quos recusandae?
             </p>
           </div>
+          <div className="flex justify-center">
+            <p className="font-bold text-xl p-1 m-1">Pricing:</p>
+            <p className="text-lg p-1 m-1 w-96">$xxx</p>
+          </div>
         </div>
 
         <div className="border-2 border-slate-400 rounded-lg p-2 m-2">
@@ -37,6 +41,10 @@ function Services() {
               quos recusandae?
             </p>
           </div>
+          <div className="flex justify-center">
+            <p className="font-bold text-xl p-1 m-1">Pricing:</p>
+            <p className="text-lg p-1 m-1 w-96">$xxx</p>
+          </div>
         </div>
 
         <div className="border-2 border-slate-400 rounded-lg p-2 m-2">
@@ -51,6 +59,10 @@ function Services() {
               ab odit error omnis nihil numquam, dicta nam delectus iusto eos
               quos recusandae?
             </p>
+          </div>
+          <div className="flex justify-center">
+            <p className="font-bold text-xl p-1 m-1">Pricing:</p>
+            <p className="text-lg p-1 m-1 w-96">$xxx</p>
           </div>
         </div>
       </div>

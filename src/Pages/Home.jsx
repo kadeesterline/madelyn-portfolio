@@ -2,8 +2,7 @@ import React from "react";
 import horseshoe from "../Images/IMG_8153.PNG";
 import bay from "../Images/IMG_8181.PNG";
 import foxglove from "../Images/IMG_8182.PNG";
-import { FaInstagram, FaHeart } from "react-icons/fa";
-import Carousel from "../Components/Carousel";
+import { FaInstagram } from "react-icons/fa";
 
 function Home() {
   return (
@@ -31,7 +30,6 @@ function Home() {
       </div>
 
       <div className="flex justify-center">
-        {/* <Carousel /> */}
         <img
           src={horseshoe}
           alt="horseshoe bend"
