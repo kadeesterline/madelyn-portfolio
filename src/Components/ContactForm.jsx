@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 function ContactForm() {
   function onSubmit(e) {
@@ -26,7 +26,7 @@ function ContactForm() {
         </label>
         <input
           id="email"
-          type="text"
+          type="email"
           autoComplete="off"
           name="email"
           required
